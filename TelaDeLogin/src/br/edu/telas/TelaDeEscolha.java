@@ -69,7 +69,7 @@ public class TelaDeEscolha extends javax.swing.JFrame {
     }//GEN-LAST:event_SairActionPerformed
 
     private void CalcIMCActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CalcIMCActionPerformed
-      abrirCalcIMC();
+     abrirTelaimc();
     }//GEN-LAST:event_CalcIMCActionPerformed
 
     private void JOGOActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JOGOActionPerformed
@@ -80,11 +80,13 @@ public class TelaDeEscolha extends javax.swing.JFrame {
          novaJanela.setVisible(true);
          this.dispose();
       }
-      private void abrirCalcIMC(){
+      private void abrirTelaimc(){
           tela novaJanela = new tela();
-          novaJanela.setVisible(true);
-          this.dispose();
+         novaJanela.setVisible(true);
+         this.dispose();
       }
+      
+    
     public static void main(String args[]) {
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
